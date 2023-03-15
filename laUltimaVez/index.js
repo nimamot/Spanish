@@ -29,7 +29,6 @@ button.onclick = function () {
   answer4.innerHTML = "(juega)";
   answer5.innerHTML = "(alguien)";
   answer6.innerHTML = "(convencido)";
-
   answer7.innerHTML = "(ratito)";
   answer8.innerHTML = "(marcharme)";
 
