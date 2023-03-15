@@ -1,14 +1,15 @@
 
 var button = document.querySelector(".button");
 
-var answer1 = document.querySelector(".te_perdí");
-var answer2 = document.querySelector(".aguanto");
-var answer3 = document.querySelector(".orgullo");
-var answer4 = document.querySelector(".impaciente");
-var answer5 = document.querySelector(".consciente");
-var answer6 = document.querySelector(".prohibido");
-var answer7 = document.querySelector(".duele");
-var answer8 = document.querySelector(".tirada");
+var answer1 = document.querySelector(".piensa");
+var answer2 = document.querySelector(".dejo");
+var answer3 = document.querySelector(".vuelvo");
+var answer4 = document.querySelector(".juega");
+var answer5 = document.querySelector(".alguien");
+var answer6 = document.querySelector(".convencido");
+var answer7 = document.querySelector(".ratito");
+
+var answer8 = document.querySelector(".marcharme");
 
 
 var box1 = document.querySelector(".box1");
@@ -21,79 +22,80 @@ var box7 = document.querySelector(".box7");
 var box8 = document.querySelector(".box8");
 
 
-button.onclick = function(){
-  answer1.innerHTML = "(te perdí)";
-  answer2.innerHTML = "(aguanto)";
-  answer3.innerHTML = "(orgullo)";
-  answer4.innerHTML = "(impaciente)";
-  answer5.innerHTML = "(consciente)";
-  answer6.innerHTML = "(prohibido)";
-  answer7.innerHTML = "(duele)";
-  // answer8.innerHTML = "(tirada)";
+button.onclick = function () {
+  answer1.innerHTML = "(piensa)";
+  answer2.innerHTML = "(dejo)";
+  answer3.innerHTML = "(vuelvo)";
+  answer4.innerHTML = "(juega)";
+  answer5.innerHTML = "(alguien)";
+  answer6.innerHTML = "(convencido)";
+
+  answer7.innerHTML = "(ratito)";
+  answer8.innerHTML = "(marcharme)";
 
   // if Statement1
-  if (box1.value == "te perdí"){
+  if (box1.value == "piensa") {
     box1.style.color = "green";
   }
-  else{
+  else {
     box1.style.color = "red";
   }
 
   // if statement 2
-  if (box2.value == "aguanto"){
+  if (box2.value == "dejo") {
     box2.style.color = "green";
   }
-  else{
+  else {
     box2.style.color = "red";
   }
-//
-//   // if Statement3
-  if (box3.value == "orgullo"){
+  //
+  //   // if Statement3
+  if (box3.value == "orgullo") {
     box3.style.color = "green";
   }
-  else{
+  else {
     box3.style.color = "red";
   }
-//
+  //
   // if Statement4
-  if (box4.value == "impaciente"){
+  if (box4.value == "impaciente") {
     box4.style.color = "green";
   }
-  else{
+  else {
     box4.style.color = "red";
   }
-//
-//   // if Statement5
-  if (box5.value == "consciente"){
+  //
+  //   // if Statement5
+  if (box5.value == "alguien") {
     box5.style.color = "green";
   }
-  else{
+  else {
     box5.style.color = "red";
   }
-//
-//   // if Statement6
-  if (box6.value == "prohibido"){
+  //
+  //   // if Statement6
+  if (box6.value == "prohibido") {
     box6.style.color = "green";
   }
-  else{
+  else {
     box6.style.color = "red";
   }
-//
-//   // if Statement7
-  if (box7.value == "duele"){
+  //
+  //   // if Statement7
+  if (box7.value == "duele") {
     box7.style.color = "green";
   }
-  else{
+  else {
     box7.style.color = "red";
   }
-//
-//   // if Statement8
-//   if (box8.value == "tirada"){
-//     box8.style.color = "green";
-//   }
-//   else{
-//     box8.style.color = "red";
-//   }
-//
-//
+  //
+  //   // if Statement8
+  //   if (box8.value == "tirada"){
+  //     box8.style.color = "green";
+  //   }
+  //   else{
+  //     box8.style.color = "red";
+  //   }
+  //
+  //
 }
