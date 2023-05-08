@@ -1,0 +1,33 @@
+.letra {
+  text-align: center;
+  margin: 10%;
+  margin-top: 2%;
+  font-size: 1.31rem;
+}
+
+.letra_img {
+  width: 300px;
+  height: auto;
+}
+
+.ans {
+  color: green;
+}
+
+.newWords {
+  padding: 10px;
+}
+
+#footer {
+  padding: 20px;
+  text-align: center;
+}
+
+figcaption {
+  padding: 20px;
+}
+
+body {
+  background-color: #EAD2AC;
+  font-family: 'Open Sans', sans-serif;
+}
