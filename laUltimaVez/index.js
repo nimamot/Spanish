@@ -87,14 +87,5 @@ button.onclick = function () {
   else {
     box7.style.color = "red";
   }
-  //
-  //   // if Statement8
-  //   if (box8.value == "tirada"){
-  //     box8.style.color = "green";
-  //   }
-  //   else{
-  //     box8.style.color = "red";
-  //   }
-  //
-  //
+
 }
