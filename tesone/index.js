@@ -1,7 +1,6 @@
-
 var button = document.querySelector(".button");
 
-var answer1 = document.querySelector(".piensa");
+var answer1 = document.querySelector(".contigo");
 var answer2 = document.querySelector(".dejo");
 var answer3 = document.querySelector(".vuelvo");
 var answer4 = document.querySelector(".juega");
@@ -10,7 +9,6 @@ var answer6 = document.querySelector(".convencido");
 var answer7 = document.querySelector(".ratito");
 
 var answer8 = document.querySelector(".marcharme");
-
 
 var box1 = document.querySelector(".box1");
 var box2 = document.querySelector(".box2");
@@ -21,9 +19,8 @@ var box6 = document.querySelector(".box6");
 var box7 = document.querySelector(".box7");
 var box8 = document.querySelector(".box8");
 
-
 button.onclick = function () {
-  answer1.innerHTML = "(piensa)";
+  answer1.innerHTML = "(contigo)";
   answer2.innerHTML = "(dejo)";
   answer3.innerHTML = "(vuelvo)";
   answer4.innerHTML = "(juega)";
@@ -33,58 +30,51 @@ button.onclick = function () {
   answer8.innerHTML = "(marcharme)";
 
   // if Statement1
-  if (box1.value == "piensa") {
+  if (box1.value == "contigo") {
     box1.style.color = "green";
-  }
-  else {
+  } else {
     box1.style.color = "red";
   }
 
   // if statement 2
   if (box2.value == "dejo") {
     box2.style.color = "green";
-  }
-  else {
+  } else {
     box2.style.color = "red";
   }
   //
   //   // if Statement3
   if (box3.value == "orgullo") {
     box3.style.color = "green";
-  }
-  else {
+  } else {
     box3.style.color = "red";
   }
   //
   // if Statement4
   if (box4.value == "impaciente") {
     box4.style.color = "green";
-  }
-  else {
+  } else {
     box4.style.color = "red";
   }
   //
   //   // if Statement5
   if (box5.value == "alguien") {
     box5.style.color = "green";
-  }
-  else {
+  } else {
     box5.style.color = "red";
   }
   //
   //   // if Statement6
   if (box6.value == "prohibido") {
     box6.style.color = "green";
-  }
-  else {
+  } else {
     box6.style.color = "red";
   }
   //
   //   // if Statement7
   if (box7.value == "duele") {
     box7.style.color = "green";
-  }
-  else {
+  } else {
     box7.style.color = "red";
   }
   //
@@ -97,4 +87,4 @@ button.onclick = function () {
   //   }
   //
   //
-}
+};
