@@ -1,8 +1,8 @@
 var button = document.querySelector(".button");
 
 var answer1 = document.querySelector(".contigo");
-var answer2 = document.querySelector(".dejo");
-var answer3 = document.querySelector(".vuelvo");
+var answer2 = document.querySelector(".visto");
+var answer3 = document.querySelector(".fracaso");
 var answer4 = document.querySelector(".juega");
 var answer5 = document.querySelector(".alguien");
 var answer6 = document.querySelector(".convencido");
@@ -21,8 +21,8 @@ var box8 = document.querySelector(".box8");
 
 button.onclick = function () {
   answer1.innerHTML = "(contigo)";
-  answer2.innerHTML = "(dejo)";
-  answer3.innerHTML = "(vuelvo)";
+  answer2.innerHTML = "(visto)";
+  answer3.innerHTML = "(fracaso)";
   answer4.innerHTML = "(juega)";
   answer5.innerHTML = "(alguien)";
   answer6.innerHTML = "(convencido)";
@@ -37,7 +37,7 @@ button.onclick = function () {
   }
 
   // if statement 2
-  if (box2.value == "dejo") {
+  if (box2.value == "visto") {
     box2.style.color = "green";
   } else {
     box2.style.color = "red";
